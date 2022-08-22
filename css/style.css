@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.banner-container {
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.banner {
+    text-align: center;
+    max-width: 80%;
+}
+
+.link-btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #ec3856;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+
+
+
+}
+
+.link-btn:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    outline-style: solid;
+    outline-color: #ec3856;
+}
+
+.donation {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donation-amount {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 400px;
+color: #ec3856;
+
+}
+
+.bg-color {
+    background: #80808021;
+    padding: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.default-donate {
+    background: #ec3856;
+
+    color: whitesmoke;
+}
+input{
+    font-size: 18px;
+    margin-top: 25px;
+    border: none;
+    text-align: center;
+}
+.underline{
+    border: 1px solid gray;
+    width: 46%;
+    margin-left: 400px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
