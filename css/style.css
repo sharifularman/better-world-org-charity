@@ -1,22 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root{
+    --primary:rgba(21, 153, 87, 0.65);
+    --secondary:rgba(21, 87, 153, 0.65);
+}
 * {
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
-    ;
 }
 
 .banner-container {
-    margin-left: 250px;
-    margin-top: 50px;
-}
+    padding-left: 250px;
+    height: 100vh;
+    background-image: linear-gradient(150deg, var(--primary), var(--secondary)), url(../images/donation0.jpg);
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
 
+
+}
 .banner {
     text-align: center;
     max-width: 80%;
+    padding-top: 250px;
+    color:#ffffff;
 }
-
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.title-color{
+    color: #ec3856;
+}
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
 .link-btn {
     text-decoration: none;
     padding: 15px 30px;
@@ -25,9 +45,6 @@
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 10px;
-
-
-
 }
 
 .link-btn:hover {
@@ -35,7 +52,7 @@
     color: black;
     cursor: pointer;
     transition: 0.5s;
-    outline-style: solid;
+    outline-style: ridge; 
     outline-color: #ec3856;
 }
 
