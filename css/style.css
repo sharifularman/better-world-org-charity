@@ -111,6 +111,40 @@
     margin-top: 5px;
     margin-bottom: 18px;
 }
+.our-goal{
+text-align: center;
+margin-top: 150px; ;
+}
+.card-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-bottom: 250px;
+   
+
+}
+.card{
+    width: 300px;
+    height: 250px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px gray;
+}
+.card h3{
+    margin:10px 0px;
+}
+.card.water{
+    background: rgba(255, 192, 203, 0.6);
+}
+.card.family{
+    background: #FFF4D6;
+}
+.card.child{
+    background: #4F9DA61A;
+}
 .mission{
     display: flex;
     gap: 20px;
