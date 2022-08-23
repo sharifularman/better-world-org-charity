@@ -179,6 +179,21 @@ margin-top: 150px;
     width: 100%;
     border-radius: 10px;
 }
+.about{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.about-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    background: rgba(236, 56, 86, 0.1);
+    color: #ec3856;
+}
 .updates{
    text-align: center;
 }
@@ -199,17 +214,17 @@ margin-top: 150px;
     border-radius: 10px;
 }
 
-.input-email{
+#input-email{
     padding: 10px 30px;
     border: none;
     background: rgba(128, 128, 128, 0.648);
    
 }
-.input-email::placeholder{
+#input-email::placeholder{
     color:white;
     font-size: 16px;
 }
-.input-submit{
+#input-submit{
     padding: 10px 30px;
     border: none;
     background:#ec3856;
@@ -227,4 +242,9 @@ margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.site-name{
+    font-size: 30px;
+    color: #ec3856ca;
+    margin-bottom: 10px;
 }
